@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<title>User Registration</title>
+
+<body>
+    
+    <main>
+       <div>
+            <h1 class="heading">Registration Form</h1>
+            <h5 class="heading2">Please provide correct details to proceed</h5>
+        </div>
+        <div>
+            <form method="POST" action="" enctype="multipart/form-data">
+                <fieldset class="fieldsetAdjust">
+                    <legend class="labels"><b>REGISTRATION</b></legend>
+                    <label class="labels"><B>Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</B></label>
+                    <input type="text" id="name" name="name" value="" placeholder="Name">
+                    <hr>
+
+                    <label class="labels"><b>Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</b></label>
+                    <input type="text" id="email" name="email" value="" placeholder="Email">
+                        
+                    <hr>
+                    <label class="labels"><b>User Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</b></label>
+                    <input type="text" id="username" name="username" value="" placeholder="Username">
+                        
+                    <hr>
+                    <label class="labels"><b>Password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</b></label>
+                    <input type="text" id="pass" name="pass" value="" placeholder="Password">
+                                          
+                    <hr>
+                    <label class="labels"><b>Confirm Password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</b></label>
+                    <input type="text" id="cpassword" name="cpassword" value="" placeholder="Confirm Password">
+                    
+                    <hr>
+                    <fieldset class="fieldsetAdjust">
+                        <legend class="labels"><b>Gender</b></legend>
+                        <input type="radio" id="gender" name="gender" value="Male"> Male
+                        <input type="radio" id="gender" name="gender" value="Female"> Female
+                        <input type="radio" id="gender" name="gender" value="Other"> Other &nbsp; 
+                                                 
+                    </fieldset>
+
+                    <hr>
+                    <fieldset class="fieldsetAdjust">
+                        <legend>Date of Birth</legend>
+            <td>
+                &ensp;&ensp;<td>dd</td>  &ensp;&ensp; &ensp;&ensp;<td>mm</td>  &ensp;&ensp;
+                &ensp;&ensp;<td>yyyy</td> <br>
+        <td><input type="text" name="" value="" size="2"></td><td> / </td>
+        <td><input type="text" name="" value="" size="2"></td><td> / </td>
+        <td><input type="text" name="" value="" size="4"></td>
+                    </fieldset>
+
+                    <hr>
+                    <input type="submit" value="Submit" name="register" class="button1">
+                    <input type="reset" value="Reset" name="clear" class="button1">
+                    <!-- <a href="homepage.php" target="_self"> Go to Homepage</a>
+                    <br><br> -->
+                   
+            </form>
+        </div>
+   
+    </main> 
+
+</body>
+</html>
