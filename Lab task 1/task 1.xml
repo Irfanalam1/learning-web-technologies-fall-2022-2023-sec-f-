@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Information>
+  <CD>
+    <ID>11</ID>
+    <NAME>Samsung</NAME>
+    <PRICE>35000</PRICE>
+    <STOCK>50</STOCK>
+    <STATUS>1</STATUS>
+  </CD>
+  <CD>
+    <ID>20</ID>
+    <NAME>HTC</NAME>
+    <PRICE>65300</PRICE>
+    <STOCK>35</STOCK>
+    <STATUS>0</STATUS>
+  </CD>
+  <CD>
+    <ID>23</ID>
+    <NAME>Nokia</NAME>
+    <PRICE>25100</PRICE>
+    <STOCK>100</STOCK>
+    <STATUS>1</STATUS>
+  </CD>
+</Information>
