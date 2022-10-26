@@ -1,0 +1,31 @@
+<information of admission time>
+    <person>
+        <sl_no> 23 </sl_no>
+        <name> John Chrter </name>
+        <admission_date>
+        <day> 05 </day>
+        <month> january </month>
+        <year> 2014 </year> 
+        </admission_date>
+    </person>
+
+    <person>
+        <sl_no> 29 </sl_no>
+        <name> Bob Marshal </name>
+        <admission_date>
+        <day> 10 </day>
+        <month> febuary </month>
+        <year> 2014 </year> 
+        </admission_date>
+    </person>
+
+    <person>
+        <sl_no> 35 </sl_no>
+        <name> Clark Kent </name>
+        <admission_date>  
+        <day> 25 </day>
+        <month> january </month>
+        <year> 2015 </year>
+        </admission_date>
+    </person>
+</information of admission time>
